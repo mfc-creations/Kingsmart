@@ -1,0 +1,124 @@
+<!-- Footer -->
+<footer class="page-footer font-small footer" >
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+            <div class="footdiv">
+            <h6><a href="#top" >Back to top </a></h6>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>  
+   <div class="container">
+        <div class="row">
+            <div class="col-12">
+               <div class="card">
+<div class="mainfooter">
+    <!--  Links -->
+    <div class="container text-center text-md-left mt-5">
+  
+      <!-- row -->
+      <div class="row mt-3">
+  
+        <!--  column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+         
+          <p>
+            <a href="#!">Get to know us</a>
+          </p>
+          <p>
+            <a href="#!">About us</a>
+          </p>
+          <p>
+            <a href="#!">Careers</a>
+          </p>
+          <p>
+            <a href="#!">Press Release</a>
+          </p>
+          <p>
+            <a href="#!">KingsMart Cares</a>
+          </p>
+          <p>
+            <a href="#!">Gift a smile</a>
+          </p>
+  
+        </div>
+       
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <p>
+            <a href="#!">Connect with Us</a>
+          </p>
+          <p>
+            <i class="fa fa-facebook-f mr-3"></i><a href="#!">Facebook</a>
+          </p>
+          <p>
+            <i class="fa fa-twitter mr-3"></i><a href="#!">Twitter</a>
+          </p>
+          <p>
+            <i class="fa fa-instagram mr-3"></i><a href="#!">Instagram</a>
+          </p>
+  
+        </div>
+       
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <p>
+            <a href="#!">Make money with us</a>
+          </p>
+          <p>
+            <a href="#!">Sell on kingsmart</a>
+          </p>
+          <p>
+            <a href="#!">Sell under kingsmart accelator</a>
+          </p>
+          <p>
+            <a href="#!">Become an Affiliate</a>
+          </p>
+          <p>
+            <a href="#!">Fulfillment by Kingsmart</a>
+          </p>
+          <p>
+            <a href="#!">Advertise your Products</a>
+          </p>
+          <p>
+            <a href="#!">Merchants</a>
+          </p>
+  
+        </div>
+      
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <p>
+            <i class="fa fa-envelope mr-3"></i> info@kingsmart.com</p>
+          <p>
+            <i class="fa fa-phone mr-3"></i> + 91 9846811422</p>
+          <p>
+            <i class="fa fa-print mr-3"></i> + 91 8942428155</p>
+  
+        </div>
+        <!--column -->
+  
+      </div>
+      <!--  row -->
+  
+    </div>       
+</div>
+</div></div>
+</div></div>
+    <!-- Footer Link -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+    <div class="footer-copyright text-center py-3 footlink" >© 2020 Copyright:
+      <a href="https://KingsMart.com/"> KingsMart.com</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+  </footer>
+  <!-- Footer -->

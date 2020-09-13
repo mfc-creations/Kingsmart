@@ -1,0 +1,65 @@
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="small-container cart-page col-md-9">
+            <h1 class="texts">Shopping Cart</h1>
+            <table class="table1">
+    
+                <tr>
+                    <th>PRODUCT DETAILS</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                    <th>TOTAL</th>
+                </tr>
+                <hr class="line">
+    
+                <tr *ngFor="let itm of ItemS">
+      
+                    <td>
+                        <div class="cart-info">
+                            <span class="badge"><img src="https://images-na.ssl-images-amazon.com/images/I/41Mv0-eaFUL.jpg" width="200" height="200"></span>  
+                            <div class = "description">
+                                <span class="badge">{{itm.name}}</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value={{itm.qauntity}}></td>
+                    <td><span>{{itm.price}}</span> </td>
+                    <td><span>{{itm.qauntity*itm.price}}</span> </td>
+                </tr>
+            </table>
+            <div>
+                <a href=""> <h3 class="texts"><u>Continue Shopping</u></h3></a> 
+            </div>
+        </div>
+        <div class="summery-card col-md-3">
+           <div class="mx-3">
+    <h4 class="pt-3">ORDER SUMMARY</h4>
+    <hr class="line" />
+    <ul class="d-flex flex-column">
+      <li class="d-flex justify-content-between">
+        <p class="text">ITEM2</p>
+        <p style="font-weight: bold;">&#8377;70.00</p>
+      </li>
+      <li>
+        <p class="text">SHIPPING</p>
+      </li>
+    </ul>
+
+    <div class="sized-box"></div>
+    <hr />
+    <ul class="d-flex flex-column">
+      <li class="d-flex justify-content-between">
+        <p class="text">TOTAL COST</p>
+        <p style="font-weight: bold;">&#8377;120</p>
+      </li>
+    </ul>
+    <button type="button " class="btn btn-dark">
+      CHECKOUT
+    </button>
+    <p class="text">PROMOTIONAL CODE</p>
+  </div>
+        </div>
+    </div>
+</div>
