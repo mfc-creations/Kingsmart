@@ -1,0 +1,70 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+body
+{
+    padding:0;
+    margin: 0;
+    background: white;
+}
+
+.button
+{
+    background-color: #f75454;
+    color:white;
+}
+
+nav
+{
+background-color:#e20000;
+color:white;
+}
+
+input
+{
+    width:300px;
+    color: white;
+}
+
+.container1
+{
+   
+   width: 100%;
+   height:52px;
+   background-color: rgb(223, 221, 221); 
+   margin-top: 67px;
+   color: black;
+   margin-right: 0;
+   margin-left: 0;
+   padding-top: 0;
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 0;
+ 
+}
+.row1
+{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100% ;
+    margin:0px;
+    height: 52px;
+}
+.dropdown-link
+{
+    color: black;
+}
+.container2
+{
+    height:50px;
+    width:100%;
+    margin-left: 0rem;
+    margin-right: 0rem;  
+}
+
+a
+{
+    color: white;
+}
