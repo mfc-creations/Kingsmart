@@ -14,6 +14,8 @@ import { CartComponent } from './cart/cart.component';
 import { ProductsComponent } from './products-admin/products/products.component';
 import { AdditmComponent } from './products-admin/additm/additm.component';
 
+
+
 @NgModule({
   declarations: [
     CartComponent,

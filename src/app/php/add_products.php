@@ -28,7 +28,8 @@
     $stmt->bindParam(':description', $description);
     $stmt->bindParam(':price', $price);
     $stmt->bindParam(':discount_price', $discount_price);
-    $stmt->bindParam(':image', $image);
+    $stmt->bindParam(':image', $image);  
+   
 
     // Execute the query
     if($stmt->execute()){

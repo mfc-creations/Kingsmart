@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';
+
 import { Products } from '../models/products';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -11,6 +12,7 @@ import { map } from 'rxjs/operators';
 export class ProductsService {
   public url = environment.web_api_url_base;
   constructor(private http: HttpClient) {}
+ 
 
   // Get all products
   getProducts(): Observable<Products[]> {
@@ -38,4 +40,22 @@ export class ProductsService {
       })
     );
   }
+//edit product
+
+
+editProduct(Data) {
+  return this.http.post(this.url + 'edit_product.php', Data).pipe(
+    map((response) => {
+      return response;
+    }
+    ));
+}
+
+
+
+// editProduct(policy: Products){
+//   return this.http.put<Products>(`${this.url}edit_product.php`, policy);
+//  }
+
+
 }

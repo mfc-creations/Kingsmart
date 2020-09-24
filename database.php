@@ -5,7 +5,7 @@ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Ac
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'kingsmart');
+define('DB_NAME', 'Kings-mart');
 function connect()
 {
   $connect = mysqli_connect(DB_HOST ,DB_USER ,DB_PASS ,DB_NAME);

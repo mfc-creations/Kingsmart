@@ -3,7 +3,8 @@
     header("Access-Control-Allow-Methods: PUT, GET, POST");
     header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
     // include database connection
-    include 'config/database.php';
+    
+    include 'config/db_config.php';
     
     try {
         
