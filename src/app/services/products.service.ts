@@ -53,6 +53,19 @@ editProduct(Data) {
 
 
 
+
+
+//adding to cart
+
+// Add product
+addToCart(data) {
+  return this.http.post(this.url + 'add_to_cart.php', data).pipe(
+    map((response) => {
+      return response;
+    })
+  );
+}
+
 // editProduct(policy: Products){
 //   return this.http.put<Products>(`${this.url}edit_product.php`, policy);
 //  }

@@ -29,10 +29,11 @@
     </a>
   </div>
   <br>
-  <div class="container">
+  <div class="container-fluid">
     <strong>Top Brands,Great Prices</strong><br>
-    <div class="row">
-      <div class="col-md-2 col-12 pb-2">
+   
+      <div class="row d-flex justify-content-center"  >
+      <!-- <div class="col-md-2 col-12 pb-2">
         <div class="card">
           <img src="assets/images/sticker.jpg" class="card-img-top p-3" height="200px">
           <div class="card-body text-center">
@@ -43,20 +44,23 @@
             <p class="card-text text-muted">Stickers & more</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-2 col-12 pb-2">
+      </div> -->
+      <div class="col-md-2 col-12 pb-2" *ngFor="let hero of heroes">
         <div class="card">
           <img src="assets/images/headphone.jpg" class="card-img-top p-3" height="200px">
           <div class="card-body text-center">
             <b>
-              <p class="card-title">Headphones</p>
+              <p class="card-title">{{hero.p_name}}</p>
             </b>
-            <p class="card-text text-success">Upto 50% off</p>
-            <p class="card-text text-muted">JBL,Sony & more</p>
+            <div class="row justify-content-between">
+            <p class="card-text">M.R.P: <font size="5px" color="green">₹ {{hero.p_price}}</font></p>
+            <p class="card-text text-danger">₹ {{((hero.p_price -hero.p_discount_price))}} off</p>
+           </div>
+           <button class="btn btn-primary" (click)="addtocart(hero)">Add to cart</button>
           </div>
-        </div>
+        
       </div>
-      <div class="col-md-2 col-12 pb-2">
+      <!-- <div class="col-md-2 col-12 pb-2">
         <div class="card">
           <img src="assets/images/kurtha.jpg" class="card-img-top p-3" height="200px">
           <div class="card-body text-center">
@@ -68,8 +72,8 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="col-md-2 col-12 pb-2">
+      </div> -->
+      <!-- <div class="col-md-2 col-12 pb-2">
         <div class="card">
           <img src="assets/images/watch.jpg" class="card-img-top p-3" height="200px">
           <div class="card-body text-center">
@@ -80,8 +84,8 @@
             <p class="card-text text-muted">Smart watches, Bands</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-2 col-12 pb-2">
+      </div> -->
+      <!-- <div class="col-md-2 col-12 pb-2">
         <div class="card">
           <img src="assets/images/wardobe.jpg" class="card-img-top p-3" height="200px">
           <div class="card-body text-center">
@@ -92,8 +96,8 @@
             <p class="card-text text-muted">Deal of the day</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-2 col-12 pb-2">
+      </div> -->
+      <!-- <div class="col-md-2 col-12 pb-2">
         <div class="card">
           <img src="assets/images/harddisk.jpg" class="card-img-top p-3" height="200px">
           <div class="card-body text-center">
@@ -104,7 +108,8 @@
             <p class="card-text text-muted">WD,Seagat</p>
           </div>
         </div>
-      </div>
+      </div> -->
+    </div>
     </div>
   </div>
   <br>
