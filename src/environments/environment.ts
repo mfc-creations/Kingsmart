@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  web_api_url_base: 'http://localhost/kingsmart/',
+  web_api_url_base: 'https://kingsmart.herokuapp.com/',
 };
 
 /*
